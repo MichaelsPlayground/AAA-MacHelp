@@ -32,9 +32,17 @@ Plug your device into your machine. Find your device in the drop down (Window > 
 Below the Team pop-up menu, click Fix Issue.
 In Xcode, click the Run button.
 (in subsequent runs, you can deploy to the iOS device with Android Studio, VS Code, or any other IDE of choice, you just need to set up that certificate the first time with Xcode. Here's Apple's documentation on setting up Xcode to run a physical device.)
+
+Die App wird aber nicht starten, da sie nicht von einem vertrauenswürdigen Entwickler stammt:
+Einstellungen - Geräteverwaltung - Entwickler-App Apple Development ... anklicken - auf den Namen klicken - vertrauen - fertig, 
+Nun startet die App
 ```
 
+**overflow by xx pixels vermeiden:**
 
+bei DropdownButtonFormField diese Zeile einfügen:
+
+isExpanded: true,
 
 **FlutterCrypto bplaced anmelden**:
 
