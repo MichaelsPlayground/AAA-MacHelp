@@ -8,7 +8,11 @@ Screenshot komplett: cmd shift 3
 
 Screenshot bereich: cmd shift 4
 
+delete all build directories for flutter apps:
 
+Finder - Go to folder - Right click - open terminal in folder
+
+find . -type d -name build -prune -exec rm -rf {} \;
 
 **run Flutter App on real device**
 
