@@ -1,5 +1,6 @@
 # AAA-MacHelp
 
+```plaintext
 Show Desktop: fn + F11
 
 Show hidden files: cmd shift .
@@ -7,12 +8,22 @@ Show hidden files: cmd shift .
 Screenshot komplett: cmd shift 3
 
 Screenshot bereich: cmd shift 4
+```
 
 delete all build directories for flutter apps:
-
+```plaintext
 Finder - Go to folder - Right click - open terminal in folder
-
 find . -type d -name build -prune -exec rm -rf {} \;
+```
+
+**Rename Flutter Apps**
+
+```plaintext
+/Users/michaelfehr/flutter/bin/flutter pub global activate rename
+/Users/michaelfehr/flutter/bin/flutter pub global run rename --bundleId de.fluttercrypto.sym_encrypt_playground_libsodium
+/Users/michaelfehr/flutter/bin/flutter pub global run rename --appname "Libsodium symmetric encryption"
+```
+
 
 **run Flutter App on real device**
 
@@ -39,10 +50,11 @@ Nun startet die App
 ```
 
 **overflow by xx pixels vermeiden:**
-
+```plaintext
 bei DropdownButtonFormField diese Zeile einfügen:
-
 isExpanded: true,
+```
+
 
 **FlutterCrypto bplaced anmelden**:
 
@@ -50,11 +62,12 @@ http://fluttercrypto.bplaced.net/wp-login.php
 
 
 Anker nutzen:
-
+```plaintext
 Die Textstelle, zu der gesprungen werden soll (Ziel) markieren, 
-
 drei Punkte untereinander, Als HTML bearbeiten
-
 rechts erweitert HTML-Anker anker01
-
 Ursprung: Text markieren, Linksymbol, #anker01 eintragen, internal, fertig.
+```
+
+
+
