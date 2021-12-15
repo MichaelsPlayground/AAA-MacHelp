@@ -10,6 +10,13 @@ Screenshot komplett: cmd shift 3
 Screenshot bereich: cmd shift 4
 ```
 
+Download all repositories of a user, maximum is 100 reps per run
+```plaintext
+Johannes Milke 493 repositories Stand 27.11.2021
+curl -s 'https://api.github.com/users/JohannesMilke/repos?page=1&per_page=100' | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 git clone
+curl -s 'https://api.github.com/users/JohannesMilke/repos?page=2&per_page=100' | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 git clone
+```
+
 delete all build directories for flutter apps:
 ```plaintext
 Finder - Go to folder - Right click - open terminal in folder
