@@ -71,6 +71,66 @@ isExpanded: true,
 
 new version 2.8.0 updated 15.12.2021:
 /Users/michaelfehr/flutter/bin/flutter upgrade
+michaelfehr@MinivonMichael AAA-MacHelp % /Users/michaelfehr/flutter/bin/flutter upgrade
+Upgrading Flutter to 2.8.0 from 2.5.3 in /Users/michaelfehr/flutter...
+Downloading Dart SDK from Flutter engine 40a99c595137e4b2f5b2efa8ff343ea23c1e16b8...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0  205M    0  463k    0     0   735k      0  0:04:46 --:--:--  0:04:46  733k
+...
+100  205M  100  205M    0     0  1997k      0  0:01:45  0:01:45 --:--:-- 2003k
+Building flutter tool...
+
+Upgrading engine...
+Downloading android-arm-profile/darwin-x64 tools...              1.652ms
+Downloading android-arm-release/darwin-x64 tools...              1.330ms
+Downloading android-arm64-profile/darwin-x64 tools...            1.517ms
+Downloading android-arm64-release/darwin-x64 tools...            1.343ms
+Downloading android-x64-profile/darwin-x64 tools...              1.508ms
+Downloading android-x64-release/darwin-x64 tools...              1.331ms
+Downloading android-x86 tools...                                   11,6s
+Downloading android-x64 tools...                                   11,8s
+Downloading android-arm tools...                                    5,4s
+Downloading android-arm-profile tools...                            3,1s
+Downloading android-arm-release tools...                         2.001ms
+Downloading android-arm64 tools...                                  5,9s
+Downloading android-arm64-profile tools...                          3,4s
+Downloading android-arm64-release tools...                       2.276ms
+Downloading android-x64-profile tools...                            3,5s
+Downloading android-x64-release tools...                         2.353ms
+Downloading android-x86-jit-release tools...                        3,8s
+Downloading ios tools...                                           27,6s
+Downloading ios-profile tools...                                   21,9s
+Downloading ios-release tools...                                  115,9s
+Downloading Web SDK...                                             18,1s
+Downloading CanvasKit...                                            3,7s
+Downloading package sky_engine...                                  615ms
+Downloading flutter_patched_sdk tools...                         1.923ms
+Downloading flutter_patched_sdk_product tools...                 1.824ms
+Downloading darwin-x64 tools...                                    17,1s
+Downloading ios-deploy...                                           57ms
+Downloading darwin-x64/font-subset tools...                        659ms
+
+Flutter 2.8.0 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision cf44000065 (vor 7 Tagen) • 2021-12-08 14:06:50 -0800
+Engine • revision 40a99c5951
+Tools • Dart 2.15.0
+
+Running flutter doctor...
+Doctor summary (to see all details, run flutter doctor -v):
+[✓] Flutter (Channel stable, 2.8.0, on macOS 11.6.1 20G224 darwin-arm, locale de-DE)
+[✓] Android toolchain - develop for Android devices (Android SDK version 31.0.0)
+[✓] Xcode - develop for iOS and macOS (Xcode 13.1)
+[✓] Chrome - develop for the web
+[✓] Android Studio (version 2020.3)
+[✓] IntelliJ IDEA Community Edition (version 2021.2.2)
+[✓] Connected device (1 available)
+
+• No issues found!
+
+
 
 15.12.2021:
 result:
