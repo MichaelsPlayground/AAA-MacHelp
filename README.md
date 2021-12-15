@@ -62,6 +62,57 @@ bei DropdownButtonFormField diese Zeile einfügen:
 isExpanded: true,
 ```
 
+**Flutter doctor**:
+```plaintext
+/Users/michaelfehr/flutter/bin/flutter doctor -v
+
+new version 2.8.0 updated 15.12.2021:
+/Users/michaelfehr/flutter/bin/flutter upgrade
+
+15.12.2021:
+result:
+[✓] Flutter (Channel stable, 2.5.3, on macOS 11.6.1 20G224 darwin-arm, locale de-DE)
+    • Flutter version 2.5.3 at /Users/michaelfehr/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 18116933e7 (vor 9 Wochen), 2021-10-15 10:46:35 -0700
+    • Engine revision d3ea636dc5
+    • Dart version 2.14.4
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 31.0.0)
+    • Android SDK at /Users/michaelfehr/Library/Android/sdk
+    • Platform android-31, build-tools 31.0.0
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 13.1, Build version 13A1030d
+    • CocoaPods version 1.11.2
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[✓] Android Studio (version 2020.3)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 11.0.10+0-b96-7249189)
+
+[✓] IntelliJ IDEA Community Edition (version 2021.2.2)
+    • IntelliJ at /Applications/IntelliJ IDEA CE.app
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[✓] Connected device (1 available)
+    • Chrome (web) • chrome • web-javascript • Google Chrome 96.0.4664.93
+
+```
+
 
 **FlutterCrypto bplaced anmelden**:
 
