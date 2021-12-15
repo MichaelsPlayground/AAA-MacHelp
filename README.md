@@ -8,6 +8,9 @@ Show hidden files: cmd shift .
 Screenshot komplett: cmd shift 3
 
 Screenshot bereich: cmd shift 4
+
+Ordner mit Tag versehen:
+Finder ctrl + Klick auf den gewünschten Ordner, Tag auswählen, fertig
 ```
 
 Download all repositories of a user, maximum is 100 reps per run
