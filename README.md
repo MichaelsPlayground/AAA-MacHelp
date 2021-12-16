@@ -11,6 +11,14 @@ Screenshot bereich: cmd shift 4
 
 Ordner mit Tag versehen:
 Finder ctrl + Klick auf den gewünschten Ordner, Tag auswählen, fertig
+
+Start XCode with or without Rosetta (to run code evtl., e.g. 
+https://github.com/backslash-f/aescryptable
+https://newbedev.com/aes-encryption-in-swift
+
+use finder, go back to Programme / rechts click auf XCode, Haken bei Start mit/ohne Rosetta, fertig
+
+
 ```
 
 Download all repositories of a user, maximum is 100 reps per run
