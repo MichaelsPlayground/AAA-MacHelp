@@ -32,6 +32,32 @@ delete all build directories for flutter apps:
 ```plaintext
 Finder - Go to folder - Right click - open terminal in folder
 find . -type d -name build -prune -exec rm -rf {} \;
+find . -type d -name flutter_build -prune -exec rm -rf {} \;
+```
+
+list directories with size:
+```plaintext
+find . -maxdepth 1 -mindepth 1 -type d -exec du -hs {} \;
+
+sorted:
+find . -maxdepth 1 -mindepth 1 -type d -exec du -s {} \; | sort -n;
+
+find . -maxdepth 1 -mindepth 1 -type d -exec du -s * | sort -n;
+
+find . -maxdepth 1 -mindepth 1 -type d -exec du -hs {} \; | sort -n;
+
+https://support.apple.com/de-de/guide/terminal/apdd100908f-06b3-4e63-8a87-32e71241bab4/mac
+in te
+delete_builds.sh
+chmod 755 delete_builds.sh
+
+Nachdem du aus der Shell-Skript-Datei eine ausführbare Datei gemacht hast, kannst du diese durch Eingeben des Pfadnamens ausführen. Zum Beispiel:
+% ~/Documents/Dev/YourScriptName.sh
+oder
+% cd ~/Documents/Dev/ 
+% ./YourScriptName.sh
+./delete_builds.sh
+
 ```
 
 **Rename Flutter Apps**
